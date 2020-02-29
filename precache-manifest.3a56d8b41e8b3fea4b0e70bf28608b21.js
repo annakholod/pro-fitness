@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5679e5e3adf4461b0e0aec700c0f6bd9",
+    "revision": "3efd726ffb405921d5639bcd4314f37c",
     "url": "/pro-fitness/index.html"
   },
   {
-    "revision": "004bee6dbe8c18a62f47",
+    "revision": "2ee9e2f4fc6b17244500",
     "url": "/pro-fitness/static/css/main.718c83bf.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pro-fitness/static/js/2.3bfd6ed6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "004bee6dbe8c18a62f47",
-    "url": "/pro-fitness/static/js/main.9b82b3e8.chunk.js"
+    "revision": "2ee9e2f4fc6b17244500",
+    "url": "/pro-fitness/static/js/main.66ccbc2c.chunk.js"
   },
   {
     "revision": "c0d2bc8161c310f9f216",
