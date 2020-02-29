@@ -1,25 +1,25 @@
 [
   {
     "title": "Личный тренер",
-    "image": "https://github.com/annakholod/images/blob/master/services/trainer.jpg",
+    "image": "https://annakholod.github.io/images/services/trainer.jpg",
     "oneLesson": "300",
     "subscription": "1500"
   },
   {
     "title": "Тренажерный зал",
-    "image": "https://github.com/annakholod/images/blob/master/services/gym.jpg",
+    "image": "https://annakholod.github.io/images/services/gym.jpg",
     "oneLesson": "150",
     "subscription": "750"
   },
   {
     "title": "Групповые занятия",
-    "image": "https://github.com/annakholod/images/blob/master/services/group-lessons.jpg",
+    "image": "https://annakholod.github.io/images/services/group-lessons.jpg",
     "oneLesson": "120",
     "subscription": "700"
   },
   {
     "title": "Бокс",
-    "image": "https://github.com/annakholod/images/blob/master/services/box.jpg",
+    "image": "https://annakholod.github.io/images/services/box.jpg",
     "oneLesson": "280",
     "subscription": "1300"
   }

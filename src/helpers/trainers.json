@@ -2,25 +2,25 @@
   {
     "id": "id-1",
     "name": "Сергей",
-    "image": "https://github.com/annakholod/images/blob/master/trainers/1.png",
+    "image": "https://annakholod.github.io/images/trainers/1.png",
     "description": "Руководитель департамента единоборств, тренер по боксу"
   },
   {
     "id": "id-2",
     "name": "Алина",
-    "image": "https://github.com/annakholod/images/blob/master/trainers/2.png",
+    "image": "https://annakholod.github.io/images/trainers/2.png",
     "description": "Фитнес тренер"
   },
   {
     "id": "id-3",
     "name": "Илья",
-    "image": "https://github.com/annakholod/images/blob/master/trainers/3.png",
+    "image": "https://annakholod.github.io/images/trainers/3.png",
     "description": "Тренер тренажерного зала"
   },
   {
     "id": "id-4",
     "name": "Светлана",
-    "image": "https://github.com/annakholod/images/blob/master/trainers/4.png",
+    "image": "https://annakholod.github.io/images/trainers/4.png",
     "description": "Фитнес тренер"
   }
 ]
