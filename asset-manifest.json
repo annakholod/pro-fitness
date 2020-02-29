@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pro-fitness/static/css/main.718c83bf.chunk.css",
-    "main.js": "/pro-fitness/static/js/main.7e506e10.chunk.js",
-    "main.js.map": "/pro-fitness/static/js/main.7e506e10.chunk.js.map",
+    "main.js": "/pro-fitness/static/js/main.9b82b3e8.chunk.js",
+    "main.js.map": "/pro-fitness/static/js/main.9b82b3e8.chunk.js.map",
     "runtime-main.js": "/pro-fitness/static/js/runtime-main.7e0bf87d.js",
     "runtime-main.js.map": "/pro-fitness/static/js/runtime-main.7e0bf87d.js.map",
     "static/js/2.3bfd6ed6.chunk.js": "/pro-fitness/static/js/2.3bfd6ed6.chunk.js",
     "static/js/2.3bfd6ed6.chunk.js.map": "/pro-fitness/static/js/2.3bfd6ed6.chunk.js.map",
     "index.html": "/pro-fitness/index.html",
-    "precache-manifest.46b37a6c25a0c5ca2be9275bdbba0b35.js": "/pro-fitness/precache-manifest.46b37a6c25a0c5ca2be9275bdbba0b35.js",
+    "precache-manifest.a58ce46dd4c77cb94fbe14bb1339e2dc.js": "/pro-fitness/precache-manifest.a58ce46dd4c77cb94fbe14bb1339e2dc.js",
     "service-worker.js": "/pro-fitness/service-worker.js",
     "static/css/main.718c83bf.chunk.css.map": "/pro-fitness/static/css/main.718c83bf.chunk.css.map",
     "static/js/2.3bfd6ed6.chunk.js.LICENSE.txt": "/pro-fitness/static/js/2.3bfd6ed6.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.7e0bf87d.js",
     "static/js/2.3bfd6ed6.chunk.js",
     "static/css/main.718c83bf.chunk.css",
-    "static/js/main.7e506e10.chunk.js"
+    "static/js/main.9b82b3e8.chunk.js"
   ]
 }
