@@ -1,0 +1,142 @@
+.about {
+  padding: 60px 10px;
+  background-image: url(../../images/about.jpg);
+  background-repeat: no-repeat;
+}
+
+.name {
+  padding: 0 0 54px;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.description {
+  padding: 0;
+  margin: 0 auto 40px auto;
+  max-width: 800px;
+  font-size: 14px;
+  line-height: 23px;
+  color: #fff;
+  text-align: center;
+}
+
+.advantages {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.listItem {
+  margin-bottom: 30px;
+}
+
+.listItem::before {
+  display: block;
+  content: "";
+  margin: 0 auto 10px auto;
+  width: 80px;
+  height: 80px;
+}
+
+.equipment::before {
+  background-image: url(../../images/advantages/equipment.png);
+}
+
+.approach::before {
+  background-image: url(../../images/advantages/approach.png);
+}
+
+.sale::before {
+  background-image: url(../../images/advantages/sale.png);
+}
+
+.inventory::before {
+  background-image: url(../../images/advantages/inventory.png);
+}
+
+.listItemDescr {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding: 80px 20px;
+  }
+
+  .nameOverlay {
+    position: relative;
+    margin: 0 auto;
+    width: 320px;
+  }
+
+  .nameOverlay::before,
+  .nameOverlay::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 70px;
+    height: 1px;
+    background-color: #dad5d5;
+  }
+
+  .nameOverlay::before {
+    margin-right: 20px;
+    left: 0;
+    top: 30%;
+  }
+
+  .nameOverlay::after {
+    margin-left: 20px;
+    right: 0;
+    top: 30%;
+  }
+
+  .name {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 38px;
+  }
+
+  .description {
+    margin: 0 auto 60px auto;
+  }
+
+  .advantages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .listItem {
+    width: 300px;
+  }
+}
+
+@media (min-width: 940px) {
+  .listItem {
+    width: 410px;
+  }
+
+  .listItemDescr {
+    margin: 0 auto;
+    width: 300px;
+  }
+}
+
+@media (min-width: 1270px) {
+  .listItem {
+    width: 300px;
+  }
+
+  .listItem::before {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,94 @@
+.footerOverlay {
+  background-image: url(../../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  padding: 60px 10px;
+  text-align: center;
+}
+
+.text {
+  padding: 30px 0 0 0;
+  margin: 0 auto 30px auto;
+  max-width: 440px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.025em;
+  font-weight: 300;
+  color: #757575;
+}
+
+.title {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.contacts {
+  margin-bottom: 30px;
+}
+
+.contactsInf {
+  padding: 0;
+  margin: 0 20px 0 0;
+  font-size: 16px;
+  line-height: 38px;
+  color: #212121;
+}
+
+.contactsInf::before {
+  display: inline-block;
+  margin-right: 6px;
+  width: 18px;
+  height: 14px;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.phone {
+  color: #fe5621;
+}
+
+.phone::before {
+  background-image: url(../../images/phone.png);
+}
+
+.email::before {
+  background-image: url(../../images/email.png);
+}
+
+.address::before {
+  background-image: url(../../images/address.png);
+}
+
+.schedule::before {
+  background-image: url(../../images/schedule.png);
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 80px 20px;
+  }
+}
+@media (min-width: 940px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .text {
+    margin-left: 0;
+    max-width: 380px;
+  }
+}
+@media (min-width: 1270px) {
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+  }
+}

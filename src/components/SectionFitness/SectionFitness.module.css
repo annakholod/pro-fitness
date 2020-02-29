@@ -1,0 +1,63 @@
+.fitness {
+  padding: 100px 10px;
+  background-image: url(../../images/fitness-join/fitness-768.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.name {
+  padding: 0;
+  margin: 0 0 40px 0;
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.description {
+  padding: 0;
+  margin: 0 0 32px 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+}
+
+.join {
+  display: block;
+  padding: 12px;
+  margin: 0 auto;
+  width: 140px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #fe5621;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .fitness {
+    padding: 140px 20px;
+    background-image: url(../../images/fitness-join/fitness-1400.jpg);
+    background-size: cover;
+  }
+
+  .name {
+    font-size: 48px;
+  }
+
+  .description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  }
+
+  .join:hover,
+  .join:focus {
+    color: #fe5621;
+    background-color: #fff;
+  }
+}

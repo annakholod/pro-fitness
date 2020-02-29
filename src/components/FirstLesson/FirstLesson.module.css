@@ -1,0 +1,45 @@
+.overlay {
+  padding: 60px 0;
+  background-image: url(../../images/first-lesson.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  padding: 0 10px;
+  margin: 0 0 40px 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.button {
+  display: block;
+  padding: 12px;
+  margin: 0 auto;
+  width: 140px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background: none;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .overlay {
+    padding: 80px 0;
+  }
+
+  .title {
+    font-size: 38px;
+  }
+
+  .button:hover,
+  .button:focus {
+    color: #fe5621;
+    background-color: #fff;
+  }
+}

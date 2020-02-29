@@ -1,0 +1,87 @@
+.topHeader {
+  background-color: #22191a;
+}
+
+.overlay {
+  display: flex;
+}
+
+.contacts {
+  display: flex;
+  margin: 0 auto;
+  width: 320px;
+  text-align: center;
+}
+
+.contactsInf {
+  padding: 0;
+  margin: 0 20px 0 0;
+  font-size: 13px;
+  line-height: 38px;
+  color: #cecece;
+}
+
+.contactsInf::before {
+  display: inline-block;
+  margin-right: 6px;
+  width: 18px;
+  height: 14px;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.phone {
+  color: #fe5621;
+}
+
+.phone::before {
+  background-image: url(../../../images/phone.png);
+}
+
+.email::before {
+  background-image: url(../../../images/email.png);
+}
+
+.address::before {
+  background-image: url(../../../images/address.png);
+}
+
+.schedule::before {
+  background-image: url(../../../images/schedule.png);
+}
+
+.email,
+.schedule {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .topHeader {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .contacts {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .email,
+  .schedule {
+    display: block;
+  }
+}
+
+@media (min-width: 1270px) {
+  .topHeader {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .overlay {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+  }
+}

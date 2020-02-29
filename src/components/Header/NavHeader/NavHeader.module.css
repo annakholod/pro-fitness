@@ -1,0 +1,39 @@
+.navigation {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 76px;
+}
+
+.menu {
+  margin: 0;
+  padding: 0 4px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 30px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .navigation {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1270px) {
+  .navigation {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    width: 1170px;
+  }
+}

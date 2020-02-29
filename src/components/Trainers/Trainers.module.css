@@ -1,0 +1,140 @@
+.trainers {
+  padding: 60px 10px;
+}
+
+.name {
+  padding: 0 0 54px;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #212121;
+  text-align: center;
+}
+
+.trainersList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.listItem {
+  margin: 0 auto 30px auto;
+  width: 300px;
+  text-align: center;
+}
+
+.trainerImg {
+  margin: 0 auto 20px auto;
+  width: 150px;
+}
+
+.trainerName {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #212121;
+}
+
+.trainerDescr {
+  padding: 0;
+  margin: 0 auto;
+  width: 270px;
+  font-size: 14px;
+  color: #757575;
+}
+
+@media (min-width: 768px) {
+  .trainers {
+    padding: 80px 20px;
+  }
+
+  .nameOverlay {
+    position: relative;
+    margin: 0 auto;
+    width: 370px;
+  }
+
+  .nameOverlay::before,
+  .nameOverlay::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 70px;
+    height: 1px;
+    background-color: #dad5d5;
+  }
+
+  .nameOverlay::before {
+    margin-right: 20px;
+    left: 0;
+    top: 30%;
+  }
+
+  .nameOverlay::after {
+    margin-left: 20px;
+    right: 0;
+    top: 30%;
+  }
+
+  .name {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 38px;
+  }
+
+  .trainersList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .listItem {
+    position: relative;
+  }
+
+  .listItem:hover .trainerName {
+    color: #fe5621;
+  }
+
+  .listItem:hover .imgOverlay {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(254, 86, 33, 0.8);
+    box-shadow: 0 0 4px #000;
+  }
+
+  .trainerImg {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 940px) {
+  .trainersList {
+    margin: 0 auto;
+    width: 800px;
+  }
+}
+
+@media (min-width: 1270px) {
+  .trainers {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+  }
+
+  .trainersList {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .listItem {
+    margin: 0 auto;
+    width: 270px;
+  }
+}
