@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/pro-fitness/static/css/main.718c83bf.chunk.css",
+    "main.js": "/pro-fitness/static/js/main.b482de9d.chunk.js",
+    "main.js.map": "/pro-fitness/static/js/main.b482de9d.chunk.js.map",
+    "runtime-main.js": "/pro-fitness/static/js/runtime-main.7e0bf87d.js",
+    "runtime-main.js.map": "/pro-fitness/static/js/runtime-main.7e0bf87d.js.map",
+    "static/js/2.3bfd6ed6.chunk.js": "/pro-fitness/static/js/2.3bfd6ed6.chunk.js",
+    "static/js/2.3bfd6ed6.chunk.js.map": "/pro-fitness/static/js/2.3bfd6ed6.chunk.js.map",
+    "index.html": "/pro-fitness/index.html",
+    "precache-manifest.0f8200634e17898a87dd247cb0aa991f.js": "/pro-fitness/precache-manifest.0f8200634e17898a87dd247cb0aa991f.js",
+    "service-worker.js": "/pro-fitness/service-worker.js",
+    "static/css/main.718c83bf.chunk.css.map": "/pro-fitness/static/css/main.718c83bf.chunk.css.map",
+    "static/js/2.3bfd6ed6.chunk.js.LICENSE.txt": "/pro-fitness/static/js/2.3bfd6ed6.chunk.js.LICENSE.txt",
+    "static/media/About.module.css": "/pro-fitness/static/media/about.a63d5ec4.jpg",
+    "static/media/FirstLesson.module.css": "/pro-fitness/static/media/first-lesson.89df21ca.jpg",
+    "static/media/SectionFitness.module.css": "/pro-fitness/static/media/fitness-768.3e6113c9.jpg",
+    "static/media/Footer.module.css": "/pro-fitness/static/media/footer.1df8f890.jpg",
+    "static/media/News.module.css": "/pro-fitness/static/media/news.32be8016.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e0bf87d.js",
+    "static/js/2.3bfd6ed6.chunk.js",
+    "static/css/main.718c83bf.chunk.css",
+    "static/js/main.b482de9d.chunk.js"
+  ]
+}
