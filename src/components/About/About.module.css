@@ -2,6 +2,7 @@
   padding: 60px 10px;
   background-image: url(../../images/about.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .name {
